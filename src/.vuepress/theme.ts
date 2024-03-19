@@ -3,9 +3,10 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
+
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
-
+  darkmode: "enable",
   author: {
     name: "Mr.Hope",
     url: "https://mister-hope.com",

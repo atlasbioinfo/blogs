@@ -2,10 +2,12 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: AtlasBioinfo Blog
+heroImage: https://pic.atlasbioinfo.com/-yLLJCGwkeS
+bgImage: https://pic.atlasbioinfo.com/-KqfWYHeMxB
+# heroImageDark:  https://pic.atlasbioinfo.com/-yLLJCGwkeS
+heroText: Atlas Bioinformatics Blog
+tagline: A good bioinformatics researcher needs the hand of a hacker, the eye of a hunter, and the dream of a pirate.
 heroFullScreen: true
 projects:
   - icon: project
