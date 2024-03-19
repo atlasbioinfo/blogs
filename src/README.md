@@ -2,12 +2,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: AtlasBioinfo Blog
+title: ATLAS生物信息
 heroImage: https://pic.atlasbioinfo.com/-yLLJCGwkeS
 bgImage: https://pic.atlasbioinfo.com/-KqfWYHeMxB
-# heroImageDark:  https://pic.atlasbioinfo.com/-yLLJCGwkeS
-heroText: Atlas Bioinformatics Blog
-tagline: A good bioinformatics researcher needs the hand of a hacker, the eye of a hunter, and the dream of a pirate.
+heroText: ATLAS生物信息博客
+tagline: All biology is computational biology
 heroFullScreen: true
 projects:
   - icon: project
@@ -40,11 +39,5 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: Making the world better
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/).
