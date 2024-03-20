@@ -12,8 +12,8 @@ export default defineUserConfig({
     },
     "/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "ATLAS生物信息博客",
+      // description: "一个生信研究者",
     },
   },
 
