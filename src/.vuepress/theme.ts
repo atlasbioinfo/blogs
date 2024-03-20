@@ -6,13 +6,12 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "https://blog.atlasbioinfo.com",
-  darkmode: "enable",
   author: {
     name: "Haopeng Yu",
     url: "https://github.com/atlasbioinfo",
   },
   iconAssets: "fontawesome-with-brands",
-  logo: "https://pic.atlasbioinfo.com/-yLLJCGwkeS",
+  logo: "https://pic.atlasbioinfo.com/-3Ukk8KaTU6",
 
   repo: "atlasbioinfo/blogs",
 
@@ -90,6 +89,9 @@ export default hopeTheme({
   plugins: {
     blog: true,
     searchPro: true,
+    // feed:{
+    //   rss: true
+    // },
     // install @waline/client before enabling it
     // WARNING: This is a test server for demo only.
     // You should create and use your own comment service in production.
@@ -131,6 +133,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
+      
 
       // install chart.js before enabling it
       // chart: true,
