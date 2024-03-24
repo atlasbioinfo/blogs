@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { commentPlugin } from 'vuepress-plugin-comment2'
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -16,10 +17,15 @@ export default defineUserConfig({
       // description: "一个生信研究者",
     },
   },
-
+  plugins: [
+    commentPlugin({
+      provider: 'Giscus',
+      repo: "atlasbioinfo/blogs",
+      repoId:"R_kgDOLbrj1Q",
+      category:"General",
+      categoryId:"DIC_kwDOLbrj1c4CeMsJ"
+    }),
+  ],
   theme
   
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
 });
