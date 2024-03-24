@@ -10,7 +10,10 @@ export default hopeTheme({
     name: "Haopeng Yu",
     url: "https://github.com/atlasbioinfo",
   },
+  // 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
+  // iconAssets: "fontawesome",
   iconAssets: "fontawesome-with-brands",
+
   logo: "https://pic.atlasbioinfo.com/-3Ukk8KaTU6",
 
   repo: "atlasbioinfo/blogs",
